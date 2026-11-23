@@ -1,0 +1,59 @@
+{
+  "document_id": "bilingual_05",
+  "document_type": "bilingual",
+  "synthetic": true,
+  "image": "../images/bilingual_05.png",
+  "language": "bilingual",
+  "normalization_profile": {
+    "unicode": "NFC",
+    "persian_characters": true,
+    "normalize_arabic_yeh": true,
+    "normalize_arabic_kaf": true,
+    "normalize_persian_digits": true,
+    "normalize_arabic_indic_digits": true,
+    "normalize_whitespace": true
+  },
+  "expected_text": "LABORATORY TEST REPORT\nReport ID: SYN-BILINGUAL-05\nPatient: Synthetic Test Record\nDate: 2026-11-23\nTEST | نام آزمایش | RESULT | UNIT\nHemoglobin | هموگلوبین | 14.7 | g/dL\nWBC | گلبول سفید | 7500 | cells/uL\nPlatelets | پلاکت | 275000 | cells/uL\nFasting Glucose | قند ناشتا | 99 | mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT",
+  "expected_lines": [
+    "LABORATORY TEST REPORT",
+    "Report ID: SYN-BILINGUAL-05",
+    "Patient: Synthetic Test Record",
+    "Date: 2026-11-23",
+    "TEST | نام آزمایش | RESULT | UNIT",
+    "Hemoglobin | هموگلوبین | 14.7 | g/dL",
+    "WBC | گلبول سفید | 7500 | cells/uL",
+    "Platelets | پلاکت | 275000 | cells/uL",
+    "Fasting Glucose | قند ناشتا | 99 | mg/dL",
+    "SYNTHETIC DATA - NOT A REAL MEDICAL REPORT"
+  ],
+  "expected_records": [
+    {
+      "test_en": "Hemoglobin",
+      "test_fa": "هموگلوبین",
+      "value": 14.7,
+      "value_text": "14.7",
+      "unit": "g/dL"
+    },
+    {
+      "test_en": "WBC",
+      "test_fa": "گلبول سفید",
+      "value": 7500,
+      "value_text": "7500",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Platelets",
+      "test_fa": "پلاکت",
+      "value": 275000,
+      "value_text": "275000",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Fasting Glucose",
+      "test_fa": "قند ناشتا",
+      "value": 99,
+      "value_text": "99",
+      "unit": "mg/dL"
+    }
+  ]
+}

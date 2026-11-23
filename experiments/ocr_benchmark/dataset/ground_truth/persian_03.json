@@ -1,0 +1,59 @@
+{
+  "document_id": "persian_03",
+  "document_type": "persian",
+  "synthetic": true,
+  "image": "../images/persian_03.png",
+  "language": "persian",
+  "normalization_profile": {
+    "unicode": "NFC",
+    "persian_characters": true,
+    "normalize_arabic_yeh": true,
+    "normalize_arabic_kaf": true,
+    "normalize_persian_digits": true,
+    "normalize_arabic_indic_digits": true,
+    "normalize_whitespace": true
+  },
+  "expected_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-03\nPatient: Synthetic Test Record\nDate: 2026-11-23\nنام آزمایش | نتیجه | واحد\nهموگلوبین | 15.1 | g/dL\nگلبول سفید | 8100 | cells/uL\nپلاکت | 230000 | cells/uL\nقند ناشتا | 88 | mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT",
+  "expected_lines": [
+    "LABORATORY TEST REPORT",
+    "Report ID: SYN-PERSIAN-03",
+    "Patient: Synthetic Test Record",
+    "Date: 2026-11-23",
+    "نام آزمایش | نتیجه | واحد",
+    "هموگلوبین | 15.1 | g/dL",
+    "گلبول سفید | 8100 | cells/uL",
+    "پلاکت | 230000 | cells/uL",
+    "قند ناشتا | 88 | mg/dL",
+    "SYNTHETIC DATA - NOT A REAL MEDICAL REPORT"
+  ],
+  "expected_records": [
+    {
+      "test_en": "Hemoglobin",
+      "test_fa": "هموگلوبین",
+      "value": 15.1,
+      "value_text": "15.1",
+      "unit": "g/dL"
+    },
+    {
+      "test_en": "WBC",
+      "test_fa": "گلبول سفید",
+      "value": 8100,
+      "value_text": "8100",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Platelets",
+      "test_fa": "پلاکت",
+      "value": 230000,
+      "value_text": "230000",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Fasting Glucose",
+      "test_fa": "قند ناشتا",
+      "value": 88,
+      "value_text": "88",
+      "unit": "mg/dL"
+    }
+  ]
+}

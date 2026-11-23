@@ -1,0 +1,59 @@
+{
+  "document_id": "english_01",
+  "document_type": "english",
+  "synthetic": true,
+  "image": "../images/english_01.png",
+  "language": "english",
+  "normalization_profile": {
+    "unicode": "NFC",
+    "persian_characters": true,
+    "normalize_arabic_yeh": true,
+    "normalize_arabic_kaf": true,
+    "normalize_persian_digits": true,
+    "normalize_arabic_indic_digits": true,
+    "normalize_whitespace": true
+  },
+  "expected_text": "LABORATORY TEST REPORT\nReport ID: SYN-ENGLISH-01\nPatient: Synthetic Test Record\nDate: 2026-11-23\nTEST | RESULT | UNIT\nHemoglobin | 14.2 | g/dL\nWBC | 7200 | cells/uL\nPlatelets | 250000 | cells/uL\nFasting Glucose | 95 | mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT",
+  "expected_lines": [
+    "LABORATORY TEST REPORT",
+    "Report ID: SYN-ENGLISH-01",
+    "Patient: Synthetic Test Record",
+    "Date: 2026-11-23",
+    "TEST | RESULT | UNIT",
+    "Hemoglobin | 14.2 | g/dL",
+    "WBC | 7200 | cells/uL",
+    "Platelets | 250000 | cells/uL",
+    "Fasting Glucose | 95 | mg/dL",
+    "SYNTHETIC DATA - NOT A REAL MEDICAL REPORT"
+  ],
+  "expected_records": [
+    {
+      "test_en": "Hemoglobin",
+      "test_fa": "هموگلوبین",
+      "value": 14.2,
+      "value_text": "14.2",
+      "unit": "g/dL"
+    },
+    {
+      "test_en": "WBC",
+      "test_fa": "گلبول سفید",
+      "value": 7200,
+      "value_text": "7200",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Platelets",
+      "test_fa": "پلاکت",
+      "value": 250000,
+      "value_text": "250000",
+      "unit": "cells/uL"
+    },
+    {
+      "test_en": "Fasting Glucose",
+      "test_fa": "قند ناشتا",
+      "value": 95,
+      "value_text": "95",
+      "unit": "mg/dL"
+    }
+  ]
+}

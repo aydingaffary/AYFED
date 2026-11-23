@@ -1,0 +1,420 @@
+{
+  "benchmark": "AYFED OCR Benchmark",
+  "synthetic_dataset": true,
+  "document_count": 15,
+  "language_configurations": [
+    "eng",
+    "fas",
+    "fas+eng"
+  ],
+  "total_runs": 45,
+  "tesseract_version": "5.5.3.20260724",
+  "ocr_config": "--oem 1 --psm 6",
+  "results": [
+    {
+      "document_id": "bilingual_01",
+      "document_type": "bilingual",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.229736,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-01\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST vunlojl pl\nHemoglobin cwalSqna 14.2 g/dL\nWBC view JolS 7200 cells/uL\nPlatelets SSM 250000 cells/uL\nFasting Glucose lool 18 95 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_01",
+      "document_type": "bilingual",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 1.331522,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱0: 5۷۱1-811۱۸16 ۱0۸ ۱۹1\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n016: 2026-11-3\n\n۲۲ ۲۴۹۱۲ 1\nنام آزمایش 1۳۹1\n9/01 14.2 هموگلویین زوازهزه ۱+ عقوت ما\nادا9ااه» ۳7200 گلبول سفی ۷۷۵۹۴\nادا9ااه» 20000 پلاکت داه‌اع۳|۵1\nا9/و ۳ 95 قند ناشتا 6 9و۳و۳\n۲ ۹۴۸۱۱۴0۱۳۸ ۸ 0۸7۸-۱07 8۷۱7۳۴۲۱۴\n"
+    },
+    {
+      "document_id": "bilingual_01",
+      "document_type": "bilingual",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.307489,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-01\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST ‏نام آزمایش‎\nHemoglobin ‏هموگلویین‎ 14.2 g/dL\nWBC view ‏گلبول‎ 7200 cells/uL\nPlatelets ‏پلاکت‎ 250000 cells/uL\nFasting Glucose ‏قند ناشتا‎ 95 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_02",
+      "document_type": "bilingual",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.218709,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-02\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST vunlojl pl\nHemoglobin cwalSqna 13.8 g/dL\nWBC view JolS 6800 cells/uL\nPlatelets SSM 265000 cells/uL\nFasting Glucose lab a8 102 mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_02",
+      "document_type": "bilingual",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 1.329844,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱0: 50۱۷-81۱۸6۱۸ 2\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n016: 2026-11-3\n\n۲۲ ۲۴۹۱۲ 1\nنام آزمایش 1۳۹1\n9/01 13.8 هموگلویین زوازهزه ۱+ عقوت ما\nادا9ااه» (4 ده گلبول سفی ۷۷۵۹۴\nادا9ااه» 2000 پلاکت داه‌اع۳|۵1\nالوم 102 قند ناشتا 6 ودناعد۳\n۲ ۹۴۸۱۱۴0۱۳۸ ۸ 0۸7۸-۱07 8۷۱7۳۴۲۱۴\n"
+    },
+    {
+      "document_id": "bilingual_02",
+      "document_type": "bilingual",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.301975,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-02\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST ‏نام آزمایش‎\nHemoglobin ‏هموگلویین‎ 13.8 g/dL\nWBC view ‏گلبول‎ 6800 cells/uL\nPlatelets ‏پلاکت‎ 265000 cells/uL\nFasting Glucose ‏قند ناشتا‎ 102 mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_03",
+      "document_type": "bilingual",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 1.181653,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-03\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST vunlojl pl\nHemoglobin cwalSqna 15.1 g/dL\nWBC view JolS 8100 cells/uL\nPlatelets SSM 230000 cells/uL\nFasting Glucose lool 18 88 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_03",
+      "document_type": "bilingual",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.317463,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱0: 5۱۷-81۱۸6۱۸۱-3\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n016: 2026-11-3\n\n۲۲ ۲۴۹۱۲ 1\nنام آزمایش 1۳۹1\n9/01 15.1 هموگلویین زوازهزه ۱+ عقوت ما\nادا9ااه» 00 گلبول سفی ۷۷۵۹۴\nادا9ااه» 20000 پلاکت داه‌اع۳|۵1\nا9/و ۳ 88 قند ناشتا 6 9و۳و۳\n۲ ۹۴۸۱۱۴0۱۳۸ ۸ 0۸7۸-۱07 8۷۱7۳۴۲۱۴\n"
+    },
+    {
+      "document_id": "bilingual_03",
+      "document_type": "bilingual",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.274357,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-03\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST ‏نام آزمایش‎\nHemoglobin ‏هموگلویین‎ 15.1 g/dL\nWBC view ‏گلبول‎ 8100 cells/uL\nPlatelets ‏پلاکت‎ 230000 cells/uL\nFasting Glucose ‏قند ناشتا‎ 88 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_04",
+      "document_type": "bilingual",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.178393,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-04\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST vunlojl pl\nHemoglobin cwalSqna 12.9 g/dL\nWBC view JolS 5900 cells/uL\nPlatelets SSM 310000 cells/uL\nFasting Glucose lab a8 110 mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_04",
+      "document_type": "bilingual",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.313518,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱0: 5۱۷-81۱۸۱6۱۸-4\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n016: 2026-11-3\n\n۲۲ ۲۴۹۱۲ 1\nنام آزمایش 1۳۹1\n9/01 129 هموگلویین زوازهزه ۱+ عقوت ما\nادا9ااه» 5900 گلبول سفی ۷۷۵۹۴\nادا9ااه» 330000 پلاکت داه‌اع۳|۵1\nالوم 110 قند ناشتا 6 ودناعد۳\n۲ ۹۴۸۱۱۴0۱۳۸ ۸ 0۸7۸-۱07 8۷۱7۳۴۲۱۴\n"
+    },
+    {
+      "document_id": "bilingual_04",
+      "document_type": "bilingual",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.264383,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-04\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST ‏نام آزمایش‎\nHemoglobin ‏هموگلویین‎ 12.9 g/dL\nWBC view ‏گلبول‎ 5900 cells/uL\nPlatelets ‏پلاکت‎ 310000 cells/uL\nFasting Glucose ‏قند ناشتا‎ 110 mg/dL\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_05",
+      "document_type": "bilingual",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.180316,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-05\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST vunlojl pl\nHemoglobin cwalSqna 14.7 g/dL\nWBC view JolS 7500 cells/uL\nPlatelets SSM 275000 cells/uL\nFasting Glucose lool 18 99 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "bilingual_05",
+      "document_type": "bilingual",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.306719,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱0: 5۱1-81۱۸16۱۸-5\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n016: 2026-11-3\n\n۲۲ ۲۴۹۱۲ 1\nنام آزمایش 1۳۹1\n9/01 147 هموگلویین زوازهزه ۱+ عقوت ما\nادا9ااه» (4 گلبول سفی ۷۷۵۹۴\nادا9ااه» 2700 پلاکت داه‌اع۳|۵1\nا9/و ۳ 99 قند ناشتا 6 9و۳و۳\n۲ ۹۴۸۱۱۴0۱۳۸ ۸ 0۸7۸-۱07 8۷۱7۳۴۲۱۴\n"
+    },
+    {
+      "document_id": "bilingual_05",
+      "document_type": "bilingual",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.269185,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-BILINGUAL-05\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\n\n7 RESULT UNIT\nTEST ‏نام آزمایش‎\nHemoglobin ‏هموگلویین‎ 14.7 g/dL\nWBC view ‏گلبول‎ 7500 cells/uL\nPlatelets ‏پلاکت‎ 275000 cells/uL\nFasting Glucose ‏قند ناشتا‎ 99 mg/dL.\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_01",
+      "document_type": "english",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.164982,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-01\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 14.2 g/dL\nWBC 7200 cells/uL\nPlatelets 250000 cells/uL\nFasting Glucose 95 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_01",
+      "document_type": "english",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.290243,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8000۲1۱۵: 5۷۱1-۴0161-15-41\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n2026-11-3 :0216\n۲۲ ۲۴۹۱۲ 1۳۹7\n0و 14.2 زوازه‌نی ‎٩۱‏ عقوت ما\nابا/دااهع 720 ۷۷۵۹۴\nابا/دااهع 20000 ات ات ات سا\n۲9/۵۱ 95 6 و۳۶۳\n\n8۸۱۲۳۴۲۴ 0۸۲۸-۱07 ۸ ۴۸۱۱۷۳0۱۳۸7\n"
+    },
+    {
+      "document_id": "english_01",
+      "document_type": "english",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.197032,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-01\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 14.2 g/dL\nWBC 7200 cells/uL\nPlatelets 250000 cells/uL\nFasting Glucose 95 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_02",
+      "document_type": "english",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.170989,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-02\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 13.8 g/dL\nWBC 6800 cells/uL\nPlatelets 265000 cells/uL\nFasting Glucose 102 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_02",
+      "document_type": "english",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.288171,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8۵0۲1۱۵: 5۱1-۴116115۳-2\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n2026-11-3 :0216\n۲۲ ۲۴۹۱۲ 1۳۹7\n0و 13.8 زوازه‌نی ‎٩۱‏ عقوت ما\nابا/دااهع 600 ۷۷۵۹۴\nابا/دااهع 2000 ات ات ات سا\n۲9/۵۱ 102 6 و۳۶۳\n\n8۸۱۲۳۴۲۴ 0۸۲۸-۱07 ۸ ۴۸۱۱۷۳0۱۳۸7\n"
+    },
+    {
+      "document_id": "english_02",
+      "document_type": "english",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.198239,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-02\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 13.8 g/dL\nWBC 6800 cells/uL\nPlatelets 265000 cells/uL\nFasting Glucose 102 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_03",
+      "document_type": "english",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.16544,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-03\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 15.1 g/dL\nWBC 8100 cells/uL\nPlatelets 230000 cells/uL\nFasting Glucose 88 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_03",
+      "document_type": "english",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.297614,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8۵00۲1۱۵: 5۱1-۴116115۳-3\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n2026-11-3 :0216\n۲۲ ۲۴۹۱۲ 1۳۹7\n0و 15.1 زوازه‌نی ‎٩۱‏ عقوت ما\nابا/دااهع 800 ۷۷۵۹۴\nابا/دااهع 20000 ات ات ات سا\n۲9/۵۱ 88 6 و۳۶۳\n\n8۸۱۲۳۴۲۴ 0۸۲۸-۱07 ۸ ۴۸۱۱۷۳0۱۳۸7\n"
+    },
+    {
+      "document_id": "english_03",
+      "document_type": "english",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.202402,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-03\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 15.1 g/dL\nWBC 8100 cells/uL\nPlatelets 230000 cells/uL\nFasting Glucose 88 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_04",
+      "document_type": "english",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.166275,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-04\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 12.9 g/dL\nWBC 5900 cells/uL\nPlatelets 310000 cells/uL\nFasting Glucose 110 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_04",
+      "document_type": "english",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.277148,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n116115۳-4ع-5۷۱1 :8۵00۲1۱۵\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n2026-11-3 :0216\n۲۲ ۲۴۹۱۲ 1۳۹7\n0و 129 زوازه‌نی ‎٩۱‏ عقوت ما\nابا/دااهع 5900 ۷۷۵۹۴\nابا/دااهع 330000 ات ات ات سا\n۲9/۵۱ 110 6 و۳۶۳\n\n8۸۱۲۳۴۲۴ 0۸۲۸-۱07 ۸ ۴۸۱۱۷۳0۱۳۸7\n"
+    },
+    {
+      "document_id": "english_04",
+      "document_type": "english",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.21793,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-04\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 12.9 g/dL\nWBC 5900 cells/uL\nPlatelets 310000 cells/uL\nFasting Glucose 110 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_05",
+      "document_type": "english",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.165126,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-05\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 14.7 g/dL\nWBC 7500 cells/uL\nPlatelets 275000 cells/uL\nFasting Glucose 99 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "english_05",
+      "document_type": "english",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.283617,
+      "recognized_text": "۱۸۳۵۳۸۲۵۳۷ 1۳۹۲ ۵۲\n\n8۵00۲1۱۵: 5۱1-۴116115۳-5\n\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n\n2026-11-3 :0216\n۲۲ ۲۴۹۱۲ 1۳۹7\n0و 147 زوازه‌نی ‎٩۱‏ عقوت ما\nابا/دااهع ۳7300 ۷۷۵۹۴\nابا/دااهع 2700 ات ات ات سا\n۲9/۵۱ 99 6 و۳۶۳\n\n8۸۱۲۳۴۲۴ 0۸۲۸-۱07 ۸ ۴۸۱۱۷۳0۱۳۸7\n"
+    },
+    {
+      "document_id": "english_05",
+      "document_type": "english",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.193783,
+      "recognized_text": "LABORATORY TEST REPORT\n\nReport ID: SYN-ENGLISH-05\n\nPatient: Synthetic Test Record\n\nDate: 2026-11-23\nTEST RESULT UNIT\nHemoglobin 14.7 g/dL\nWBC 7500 cells/uL\nPlatelets 275000 cells/uL\nFasting Glucose 99 mg/dL\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_01",
+      "document_type": "persian",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.171486,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-01\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nt>ly cea) Uw Losl pl\n\ng/dL 14.2 onglS god\n\ncells/uL 7200 yaw Jol\n\ncells/uL 250000 easy\n\nmg/dL. 95 lool 145\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_01",
+      "document_type": "persian",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.247804,
+      "recognized_text": "۳۵۲ 1۳۹۲ ۱۸۵۵۳۸۵۲۵۳۹۷\n5۷۱-۳۴۳۹5۱۸۲-1 :۴۵۵۲1۱۵\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n2026-11-3 :6اه0\n\nنام آزماییش نتیجه واحد\n\nهمو گلوبین 14.2 9/01\n\nگلبول سفید 7200 الاوااهه\n\nپلاکت 20000 الاله‌ااه\n\nقند ناشتا 95 ۳/91\n\n8۸1۲۴۲1۱6 ۵۸۲۸-۱۵۲ ۸ ۹۴۸۱۰۱۴۵۱6۸۱ ۳۹۲\n"
+    },
+    {
+      "document_id": "persian_01",
+      "document_type": "persian",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.29189,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-01\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nنام آزماییش نتیجه واحد\n\nهمو گلوبین 14.2 ‎g/dL‏\n\nگلبول سفید 7200 ‎cells/uL‏\n\ncells/uL 250000 ‏پلاکت‎\n\nقند ناشتا 95 ‎mg/dL.‏\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_02",
+      "document_type": "persian",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.171674,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-02\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nt>ly cea) Uw Losl pl\n\ng/dL 13.8 oxglSgoa\n\ncells/uL 6800 yaw Jol\n\ncells/uL 265000 easy\n\nmg/dL. 102 lool 145\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_02",
+      "document_type": "persian",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.249791,
+      "recognized_text": "۵۵۲ ۲۳۹۲ ۱۸۵۵۳۸۵۲۵۳۹۷\n5۷۱-۳۴۳۹5۱۸۱-2 :۴۵۵۲1۱۵\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n2026-11-3 :6اه0\n\nنام آزماییش نتیجه واحد\n\nهموگلوبین 13.8 9/01\n\nگلبول سفید 6800 الاوااهه\n\nپلاکت 205000 الاله‌ااه\n\nقند ناشتا 102 ۳/91\n\n8۸1۲۴۲1۱6 ۵۸۲۸-۱۵۲ ۸ ۹۴۸۱۰۱۴۵۱6۸۱ ۳۹۲\n"
+    },
+    {
+      "document_id": "persian_02",
+      "document_type": "persian",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.290779,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-02\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nنام آزماییش نتیجه واحد\n\ng/dL 13.8 ‏هموگلوبین‎\n\nگلبول سفید 6800 ‎cells/uL‏\n\ncells/uL 265000 ‏پلاکت‎\n\nقند ناشتا 102 ‎mg/dL.‏\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_03",
+      "document_type": "persian",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.180208,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-03\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nt>ly cea) Uw Losl pl\n\ng/dL 15.1 oxglSgoa\n\ncells/uL 8100 yaw Jol\n\ncells/uL 230000 easy\n\nmg/dL. 88 lool 145\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_03",
+      "document_type": "persian",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.25272,
+      "recognized_text": "۵۵۲ ۲۳۹۲ ۱۸۵۵۳۸۵۲۵۳۹۷\n5۷۱-۳۴۳۹5۱۸۲-3 :۴۵۵۲1۱۵\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n2026-11-3 :6اه0\n\nنام آزماییش نتیجه واحد\n\nهموگلوبین 15.1 9/01\n\nگلبول سفید 800 الاوااهه\n\nپلاکت 230000 الاله‌ااه\n\nقند ناشتا 88 ۳/91\n\n8۸1۲۴۲1۱6 ۵۸۲۸-۱۵۲ ۸ ۹۴۸۱۰۱۴۵۱6۸۱ ۳۹۲\n"
+    },
+    {
+      "document_id": "persian_03",
+      "document_type": "persian",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.298238,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-03\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nنام آزماییش نتیجه واحد\n\ng/dL 15.1 ‏هموگلوبین‎\n\nگلبول سفید 8100 ‎cells/uL‏\n\ncells/uL 230000 ‏پلاکت‎\n\nقند ناشتا 88 ‎mg/dL.‏\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_04",
+      "document_type": "persian",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.173881,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-04\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nt>ly cea) Uw Losl pl\n\ng/dL 12.9 oxglSgoa\n\ncells/uL 5900 yaw Jol\n\ncells/uL 310000 easy\n\nmg/dL. 110 lool 145\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_04",
+      "document_type": "persian",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.251685,
+      "recognized_text": "۵۵۲ ۲۳۹۲ ۱۸۵۵۳۸۵۲۵۳۹۷\n5۷۱-۳۴۳۹5۱۸۱-4 :۴۵۵۲1۱۵\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n2026-11-3 :6اه0\n\nنام آزماییش نتیجه واحد\n\nهموگلوبین 129 9/01\n\nگلبول سفید 5900 الاوااهه\n\nپلاکت 30000 الاله‌ااه\n\nقند ناشتا 110 ۳/91\n\n8۸1۲۴۲1۱6 ۵۸۲۸-۱۵۲ ۸ ۹۴۸۱۰۱۴۵۱6۸۱ ۳۹۲\n"
+    },
+    {
+      "document_id": "persian_04",
+      "document_type": "persian",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.294714,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-04\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nنام آزماییش نتیجه واحد\n\ng/dL 12.9 ‏هموگلوبین‎\n\nگلبول سفید 5900 ‎cells/uL‏\n\ncells/uL 310000 ‏پلاکت‎\n\nقند ناشتا 110 ‎mg/dL.‏\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_05",
+      "document_type": "persian",
+      "language": "eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.175029,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-05\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nt>ly cea) Uw Losl pl\n\ng/dL 14.7 onglS god\n\ncells/uL 7500 yaw Jol\n\ncells/uL 275000 easy\n\nmg/dL. 99 lool 145\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    },
+    {
+      "document_id": "persian_05",
+      "document_type": "persian",
+      "language": "fas",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.249398,
+      "recognized_text": "۳۵۲ 1۳۹۲ ۱۸۵۵۳۸۵۲۵۳۹۷\n5۷۱-۳۴۳۹5۱۸۲-5 :۴۵۵۲1۱۵\n0 اآ1095 5۳1۳۵6 :۳۵۵۳۱\n2026-11-3 :6اه0\n\nنام آزماییش نتیجه واحد\n\nهمو گلوبین 147 9/01\n\nگلبول سفید 7300 الاوااهه\n\nپلاکت 27000 الاله‌ااه\n\nقند ناشتا 99 ۳/91\n\n8۸1۲۴۲1۱6 ۵۸۲۸-۱۵۲ ۸ ۹۴۸۱۰۱۴۵۱6۸۱ ۳۹۲\n"
+    },
+    {
+      "document_id": "persian_05",
+      "document_type": "persian",
+      "language": "fas+eng",
+      "ocr_config": "--oem 1 --psm 6",
+      "engine_version": "5.5.3.20260724",
+      "processing_time_seconds": 0.29526,
+      "recognized_text": "LABORATORY TEST REPORT\nReport ID: SYN-PERSIAN-05\nPatient: Synthetic Test Record\nDate: 2026-11-23\n\nنام آزماییش نتیجه واحد\n\nهمو گلوبین 14.7 ‎g/dL‏\n\nگلبول سفید 7500 ‎cells/uL‏\n\ncells/uL 275000 ‏پلاکت‎\n\nقند ناشتا 99 ‎mg/dL.‏\n\nSYNTHETIC DATA - NOT A REAL MEDICAL REPORT\n"
+    }
+  ]
+}
